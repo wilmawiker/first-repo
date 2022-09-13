@@ -20,30 +20,31 @@ ul {
     display: inline-block;
 }
 
-#div4 {
+#flexRectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
     position: relative;
     height: 100px;
     width: 100px;
 }
 
-#div5 {
+#circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: 50px;
     border: 2px solid orange;
     border-radius: 50%;
-    position: relative;
-    margin: 0 auto;
-    top: 50%;
-    transform: translateY(-50%);
+    position: absolute;
 
 }
 
-#div5text {
+#circleText {
+    position: absolute;
 margin: 0 auto;
-text-align: center;
-vertical-align: middle;
-line-height: 50px;
 }
 
 #bilddiv {
@@ -51,12 +52,14 @@ line-height: 50px;
     height: 600px;
     position: relative;
     margin: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid yellow;
 }
 
 img {
-    position: relative;
+    position: absolute;
     margin: 0 auto;
 }
 
